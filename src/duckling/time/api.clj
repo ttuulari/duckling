@@ -58,10 +58,10 @@
                            {:normalized {:value (t/period->duration value)
                                          :unit "second"}}))
 
-        (:temperature :distance :amount-of-money :number :volume)
+        (:temperature :distance :amount-of-money :number :volume :area)
                   (merge {:type "value" :value value}
                          (select-keys token [:unit]))
 
         :quantity (select-keys token [:value :unit :product])
 
-  	    {:value value})))) ; nest value for other dims
+        {:value value})))) ; nest value for other dims

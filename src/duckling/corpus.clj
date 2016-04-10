@@ -126,6 +126,15 @@
                   (= unit  (-> token :value :unit))
                   (= normalized (-> token :value :normalized)))))
 
+(defn area
+  "Create an area condition"
+  [value unit & [normalized]]
+  (fn [token _] (and
+                  (= :area (:dim token))
+                  (= value (-> token :value :value))
+                  (= unit  (-> token :value :unit))
+                  (= normalized (-> token :value :normalized)))))
+
 
 (defn integer
   "Return a func (duckling pattern) checking that dim=number and integer=true,

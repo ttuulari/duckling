@@ -24,7 +24,7 @@
 	(distance 2 "centimetre" {:value 0.02 :unit "metre"})
 
 	; Volume
-	
+
 	"250 milliliitrit"
 	"250ml"
 	"250 ml"
@@ -47,10 +47,10 @@
 	; Quantity
 	"kaks naela liha"
 	(quantity 2 "pound" "meat")
-	 
+
 	"nael"
 	(quantity 1 "pound")
-	 
+
 	"liha"
 	(quantity 1 nil "meat")
 

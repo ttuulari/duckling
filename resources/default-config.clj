@@ -1,6 +1,8 @@
 {
- :fi$core {:corpus ["fi.numbers"]
-           :rules  ["fi.numbers"]}
+ :fi$core {:corpus ["fi.numbers"
+                    "fi.measure" ]
+           :rules  ["fi.numbers"
+                    "fi.measure" ]}}
 
  :fr$core {:corpus ["fr.time"
                     "fr.numbers"
