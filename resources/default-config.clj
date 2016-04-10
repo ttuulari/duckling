@@ -1,11 +1,14 @@
 {
+ :fi$core {:corpus ["fi.numbers"]
+           :rules  ["fi.numbers"]}
+
  :fr$core {:corpus ["fr.time"
                     "fr.numbers"
                     "fr.temperature"
                     "fr.measure"
                     "fr.finance"
-                    "en.communication"
-                    ]
+                    "en.communication"]
+
            :rules ["fr.time"
                    "fr.numbers"
                    "fr.cycles"
@@ -13,8 +16,8 @@
                    "fr.temperature"
                    "fr.measure"
                    "en.finance"                             ; sic
-                   "en.communication"
-                   ]}
+                   "en.communication"]}
+
  :en$core {:corpus ["en.time"
                     "en.numbers"
                     "en.temperature"
@@ -34,8 +37,8 @@
                     "es.temperature"
                     "es.measure"
                     "es.finance"
-                    "en.communication"
-                    ]
+                    "en.communication"]
+
            :rules ["es.time"
                    "es.numbers"
                    "es.cycles"
@@ -43,42 +46,42 @@
                    "es.temperature"
                    "es.measure"
                    "en.finance"
-                   "en.communication"
-                   ]}
+                   "en.communication"]}
+
  :et$core {:corpus [
-                    "et.numbers"
-                    ]
+                    "et.numbers"]
+
            :rules  [
-                    "et.numbers"
-                    ]}
+                    "et.numbers"]}
+
  :it$core {:corpus [
                     "it.time"
-                    "it.numbers"
-                    ]
+                    "it.numbers"]
+
            :rules [
                    "it.time"
                    "it.numbers"
                    "it.cycles"
-                   "it.duration"
-                   ]}
+                   "it.duration"]}
+
  :cn$core {:corpus [
                     "cn.time"
                     "cn.numbers"
-                    "cn.temperature"
-                    ]
+                    "cn.temperature"]
+
            :rules [
                    "cn.time"
                    "cn.numbers"
                    "cn.cycles"
                    "cn.duration"
-                   "cn.temperature"
-                   ]}
+                   "cn.temperature"]}
+
  :ru$core {:corpus [
-                    "ru.numbers"
-                    ]
+                    "ru.numbers"]
+
            :rules [
-                   "ru.numbers"
-                   ]}
+                   "ru.numbers"]}
+
 
  :ar$core {:corpus [
                     "ar.numbers"
@@ -89,21 +92,21 @@
 
  :ja$core {:corpus [
                     "ja.numbers"
-                    "ja.temperature"
-                    ]
+                    "ja.temperature"]
+
            :rules [
                    "ja.numbers"
                    "ja.temperature"
                    "ja.duration"
-                   "ja.cycles"
-                   ]}
+                   "ja.cycles"]}
+
  :pt$core {:corpus ["pt.time"
                     "pt.numbers"
                     "pt.temperature"
                     "pt.measure"
                     "pt.finance"
-                    "en.communication"
-                    ]
+                    "en.communication"]
+
            :rules ["pt.time"
                     "pt.numbers"
                     "pt.cycles"
@@ -111,14 +114,11 @@
                     "pt.temperature"
                     "pt.measure"
                     "pt.finance"
-                    "en.communication"
-                   ]}
+                    "en.communication"]}
+
  :kr$core {:corpus [
-                    "kr.numbers"
-                    ]
+                    "kr.numbers"]
+
            :rules [
-                   "kr.numbers"
-                   ]}
+                   "kr.numbers"]}
 }
-
-
